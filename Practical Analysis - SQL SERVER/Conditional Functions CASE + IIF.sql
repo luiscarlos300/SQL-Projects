@@ -85,7 +85,7 @@ SELECT
 	CASE 
 		WHEN ROUND(AVG([Weight]) * 100,2) >= 1000 THEN 'Route 2'
 		ELSE 'Route 1'
-	END 'Route'
+	END AS 'Route'
 FROM
 	DimProduct P
 INNER JOIN DimProductSubcategory S
