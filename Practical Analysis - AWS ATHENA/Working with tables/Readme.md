@@ -30,7 +30,7 @@ DROP COLUMN id_cliente;
 
 ```
 
-# 1.3 DROP TABLE command
+## 1.3 DROP TABLE command
 
 ```powershell
 
@@ -38,7 +38,7 @@ DROP TABLE transacoes;
 
 ```
 
-# 1.4 INSERT INTO command
+## 1.4 INSERT INTO command
 
 ```powershell
 
@@ -48,7 +48,7 @@ INSERT INTO transacoes VALUES (3,818770008,2021-06-05,110.00,'postoshell');
 
 ```
 
-# 1.5 UPDATE command
+## 1.5 UPDATE command
 
 ```powershell
 
@@ -58,7 +58,7 @@ WHERE id = 818770008;
 
 ```
 
-# 1.6 DELETE command
+## 1.6 DELETE command
 
 ```powershell
 
